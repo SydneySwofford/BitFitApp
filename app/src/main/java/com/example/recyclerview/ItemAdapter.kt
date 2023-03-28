@@ -47,7 +47,7 @@ class ItemAdapter(private val context: Context, private val items: List<Item>) :
                 moodtitle.text=item.mood
                 moodtitle.setTextColor(Color.parseColor("#ffcc0000"))
             }
-            else if(item.mood=="tired"||item.mood=="sick"){
+            else if(item.mood=="tired"||item.mood=="sick"||item.mood=="sad"){
                 moodtitle.text=item.mood
                 moodtitle.setTextColor(Color.parseColor("#FFA500"))
             }
