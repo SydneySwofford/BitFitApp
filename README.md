@@ -1,45 +1,44 @@
-# Android Project 2 - Recycler View
+# Android Project 5 - BitFit
 
 Submitted by: Sydney Swofford
 
-Recycler is a wishlist app that helps the user keep track of what they want to buy.
+BitFit is a health metrics app that allows users to track Blood Pressure
 
-Time spent: 3 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ x] **User can add an item to their wishlist**
-- [x ] **User can see their list of items based on previously inputted items**
-
+- [ x] **At least one health metric is tracked (based on user input)**
+  - Chosen metric(s): `[TODO: FILL ME IN TO GET CREDIT]`
+- [x ] **There is a "create entry" UI that prompts users to make their daily entry**
+- [ x] **New entries are saved in a database and then updated in the RecyclerView**
+- [ x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
+ 
 The following **optional** features are implemented:
 
-- [x ] Wishlist app is 🎨 **customized** 🎨
-- [ ] User can delete an item by long pressing on the item
-- [ ] User can open an item's URL by clicking on the item
+- [ ] **Create a UI for tracking averages and trends in metrics**
+- [ x] **Improve and customize the user interface through styling and coloring**
+- [ ] **Implement orientation responsivity**
+- [ ] **Add a daily photo feature**
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-https://github.com/SydneySwofford/RecyclerView/blob/main/Walkthrough.gif
+https://github.com/SydneySwofford/BitFitApp/blob/main/Walkthrough.gif
 
-
-GIF created with Screen to GIF
-
+GIF created with ScreentoGif 
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
-Got some help implementing the behavior to actually add items into the list dynamically, but other than that it went pretty well.
-I will try to update the next two days to include long press and link features(: 
+this took a long time but was relatively straightforward
 
 ## License
 
-    Copyright [2023] [Sydney Swofford]
+    Copyright 2023 Sydney Swofford
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
