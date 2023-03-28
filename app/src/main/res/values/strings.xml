@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RecyclerView</string>
+    <string name="app_name">BloodPressureTracker</string>
+    <string name="units">mmHg</string>
 </resources>
