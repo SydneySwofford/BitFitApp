@@ -1,28 +1,27 @@
-# Android Project 5 - BitFit
+# Android Project 6 - *BitFit*
 
-Submitted by: Sydney Swofford
+Submitted by: **Sydney Swofford**
 
-BitFit is a health metrics app that allows users to track Blood Pressure
+**BitFit** is a health metrics app that allows users to track ... BLood Presure
 
-Time spent: 7 hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `Blood Pressure`
-- [x ] **There is a "create entry" UI that prompts users to make their daily entry**
-- [ x] **New entries are saved in a database and then updated in the RecyclerView**
-- [ x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [ x] **Use at least 2 Fragments**
+- [x ] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [x ] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
-- [ x] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -30,11 +29,12 @@ Here's a walkthrough of implemented user stories:
 
 https://github.com/SydneySwofford/BitFitApp/blob/main/Walkthrough.gif
 
-GIF created with ScreentoGif 
+
+GIF created with ScreentoGif
 
 ## Notes
 
-this took a long time but was relatively straightforward
+Having some button issues trying to recreate the buttons that were initially on my main activity, in terms of formatting them on the recycler view in the fragment. 
 
 ## License
 
